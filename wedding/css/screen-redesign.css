@@ -1,0 +1,226 @@
+/* html
+---------------------------------------------------------- */
+	body {
+		background: #1C2424 url("../img/body-bg3.jpg") repeat-x left 7px;
+		color: #3A4956;
+		color: #6E8AA3;
+		font-family: verdana, arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		text-align: center; }
+		
+	a {
+		background: #1C2424;
+		color: #9CC3EC;
+		text-decoration: none; }
+		
+	a:hover {
+		background: #1C2424;
+		color: #3886D7;
+		text-decoration: none; }
+		
+	h1, h2, h3, h4, h5, h6, p {
+		padding: 5px 0; }
+		
+	h1 {
+		font-size: 20px;
+		font-weight: normal; }
+
+	h2 {
+		font-size: 20px;
+		font-weight: normal; }
+
+
+/* helper
+---------------------------------------------------------- */
+	#helper {
+		background: #FFF;
+		color: #000;
+		height: 7px; }
+
+/* wrapper
+---------------------------------------------------------- */		
+	#wrapper {
+		/* background: url("../img/pointer.gif") no-repeat top left;*/
+		margin: 0 8%;
+		text-align: left; }
+	
+	
+/* header
+---------------------------------------------------------- */
+	#wrapper #header {
+		background: url("../img/silhouette.jpg") no-repeat top center;
+		height: 400px;
+		position: relative; }
+		
+	#wrapper #header #logo {
+		bottom: 5px;
+		right: 0;
+		position: absolute; }
+		
+	#wrapper #header #logo a {
+		background: transparent;
+		color: #9CC3EC;
+		font-size: smaller; }
+		
+	#wrapper #header #logo a:hover {
+		background: transparent;
+		color: #EFEFEF; }
+		
+	#wrapper #header #nav {
+		left: 20px;
+		position: absolute;
+		top: 5px;
+		left: 0;
+		top: 0; }
+		
+	#wrapper #header #nav a {
+		background: transparent;
+		color: #9CC3EC;
+		font-size: smaller; }
+		
+	#wrapper #header #nav a:hover {
+		background: transparent;
+		color: #EFEFEF; }
+		
+	#wrapper #header #referer  {
+		position: absolute;
+		right: 0;
+		top: 5px; }
+		
+	#wrapper #header #referer a img {
+		border: solid 1px #CCCCCC; }
+		
+	#wrapper #header #referer a:hover img {
+		border: solid 1px #EFEFEF; }
+		
+
+/* twitter
+---------------------------------------------------------- */
+	#wrapper #twitter {
+		padding: 10px 0 0 0; }
+		
+	#wrapper #twitter a {
+		background: #1C2424;
+		color: #CCC; }
+
+	#wrapper #twitter a:hover {
+		background: #1C2424;
+		color: #EFEFEF; }
+		
+		
+/* life
+---------------------------------------------------------- */
+	#wrapper #life {
+		padding: 30px 0; }
+		
+	#wrapper #life h2 {
+		float: left; }
+	
+	#wrapper #life h4 {
+		float: right; }
+		
+	#wrapper #life div.entry {
+		border-bottom: 1px solid #3A4956;
+		padding: 10px 0 0 0; }
+		
+	#wrapper #life p {
+		color: #CCC;
+		line-height: 1.6em; }
+		
+	#wrapper #life ul { }
+		
+	#wrapper #life ul li {
+		color: #CCC;
+		line-height: 1.6em;
+		list-style-type: disc;
+		margin: 0 0 0 40px; }
+		
+	#wrapper #life dl dd {
+		padding: 0 0 0 30px; }
+		
+	#wrapper #life #internal {
+		font-size: smaller; }
+		
+	#wrapper #life #comments {
+		font-size: smaller; }
+		
+	#wrapper #life .txtinput {
+		background: #1C2424; 
+		border: 0; 
+		border-bottom: dotted 1px #384747; 
+		color: #FFF; }
+
+	#wrapper #life .txtarea {
+		background: #1C2424; 
+		border: dotted 1px #384747; 
+		color: #FFF; }		
+		
+	#wrapper #life .txtinput:focus {
+		border-bottom: dotted 1px #1E66B0; }
+
+	#wrapper #life .txtarea:focus  {
+			border: dotted 1px #1E66B0; }
+	
+		
+/* photos: facebook & flickr
+---------------------------------------------------------- */	
+	#wrapper #photos {
+		width: 100%; }
+			
+	#wrapper #facebook {
+		float: left; }
+		
+	#wrapper #flickr {
+		float: right; }
+		
+	#wrapper #facebook,
+	#wrapper #flickr {
+		padding: 30px 0 0 0;
+		text-align: center;
+		width: 49%; }
+		
+	#wrapper #facebook h2, 
+	#wrapper #flickr h2  {
+		border-bottom: solid 1px #3A4956;
+		text-align: left; }
+
+	#wrapper #facebook a,
+	#wrapper #flickr a {
+		background: #1C2424;
+		color: #CCC; }
+		
+	#wrapper #facebook a:hover,
+	#wrapper #flickr a:hover {
+		background: #1C2424;
+		color: #EFEFEF; }
+		
+	#wrapper #facebook a img,
+	#wrapper #flickr a img {
+		border: 4px solid #384747;
+		margin: 6px; }
+		
+	#wrapper #facebook a:hover img,
+	#wrapper #flickr a:hover img {
+		border: 4px solid #1E66B0; }	
+		
+		
+/* footer
+---------------------------------------------------------- */		
+	#footer {
+		clear: both;
+		font-size: smaller;
+		padding: 10px 0; }
+		
+
+/* clear
+---------------------------------------------------------- */
+.right { float: right; }
+.left { float: left; }
+.clear { clear: both; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; } 
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */

@@ -1,0 +1,306 @@
+/*
+----------------------------------------------------------------------------- 
+RESET
+-----------------------------------------------------------------------------*/
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-weight: inherit;
+		font-style: inherit;
+		font-size: 100%;
+		font-family: inherit;
+		vertical-align: baseline;
+	}
+
+	:focus {
+		outline: 0;
+	}
+
+	body {
+		line-height: 1;
+		color: black;
+		background: white;
+	}
+
+	ol, ul {
+		list-style: none;
+	}
+
+	table {
+		border-collapse: separate;
+		border-spacing: 0;
+	}
+
+	caption, th, td {
+		text-align: left;
+		font-weight: normal;
+	}
+
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: "";
+	}
+	
+	blockquote, q {
+		quotes: "" "";
+	}
+
+/*
+----------------------------------------------------------------------------- 
+GLOBAL
+-----------------------------------------------------------------------------*/
+	body {
+		background: #012340 url(../img/bg.jpg) repeat-x 0 0;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 100%;
+		color: #444;
+		margin: 0;
+		padding: 20px;
+		text-align: center; }
+
+	#wrapper {
+		background: #FFF;
+		border: solid 4px #03658C;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+		-webkit-box-shadow: 0 3px 5px rgba(0,0,0,.25);
+		-moz-box-shadow: 0 3px 5px rgba(0,0,0,.25);
+		box-shadow: 0 3px 5px rgba(0,0,0,.25);
+		margin: 0 auto;
+		padding: 20px;
+		text-align: left;
+		width: 900px; }
+		
+/*
+----------------------------------------------------------------------------- 
+HEADER
+-----------------------------------------------------------------------------*/
+
+	h1 {
+		color: #012340;
+		font-size: 1.6em;
+		margin: 0; 
+		padding: 10px 0 5px 10px; }
+
+	h2 {
+		color: #012340;
+		margin: 0;
+		padding: 5px 0 0 10px; }
+
+	
+	#header {}
+
+
+/*
+----------------------------------------------------------------------------- 
+NAV
+-----------------------------------------------------------------------------*/
+/*
+	#nav {
+		background: #A60A0A url(../img/nav.jpg) repeat-x left bottom;
+		border: solid 1px #400101;
+		font-size: .95em;
+		margin: 20px 0; }
+	
+	#nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0; }
+
+	#nav ul li {
+		color: #FFF;
+		float: left; }
+
+	#nav ul li a {
+		background: #A60A0A url(../img/nav.jpg) repeat-x left bottom;
+		border-right: solid 1px #400101;
+		color: #DDD;
+		display: block;
+		padding: 6px 13px;
+		text-decoration: none; }
+
+	#nav ul li a:hover {
+		background: #400101;
+		color: #FFF; }
+		
+*/
+
+	#nav {
+		background: #A60A0A url(../img/nav.jpg) repeat-x left bottom;
+		font-size: .8em;
+		list-style: none;
+		margin: 5px auto 20px auto;
+		padding: 0;
+		text-align: left;
+		width: 900px; }
+		
+	#nav ul {
+		background: #A60A0A url(../img/nav.jpg) repeat-x left bottom;
+		list-style: none; }
+
+	#nav a {
+		border: 0;
+		color: #DDD;
+		display: block;
+		margin: 0 auto;
+		padding: 10px 0;
+		text-align: center;
+		text-decoration: none; }
+		
+	#nav a:hover {
+		color: #FFF;
+		border: 0; }
+
+	#nav li {
+		border-right: solid 1px #400101;
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: 156px; }
+
+	#nav li ul {
+		border-bottom: solid 1px #000;
+		border-left: solid 1px #000;
+		border-right: solid 1px #000;
+		left: -999em;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 156px;
+		z-index: 14; }
+
+	#nav li li {
+		margin: 0;
+		padding: 0;
+		width: 156px; }
+
+	#nav li ul a {
+		width: 150px; }
+
+	#nav li ul ul {
+		margin: -1.75em 0 0 14em; }
+
+	#nav li:hover ul ul, 
+	#nav li:hover ul ul ul, 
+	#nav li.sfhover ul ul, 
+	#nav li.sfhover ul ul ul {
+		left: -999em; }
+
+	#nav li:hover ul, 
+	#nav li li:hover ul, 
+	#nav li li li:hover ul, 
+	#nav li.sfhover ul,
+	#nav li li.sfhover ul, 
+	#nav li li li.sfhover ul {
+		left: auto; }
+
+	#nav li:hover, 
+	#nav li.sfhover {
+		background: #400101; }
+
+/*
+----------------------------------------------------------------------------- 
+CONTENT
+-----------------------------------------------------------------------------*/
+	#content {
+		font-size: .95em; }
+
+	#content h3 {
+		font-size: 1.2em;
+		border-bottom: solid 1px #000;
+		padding-bottom: 5px;
+		margin: 0 0 10px 0; }
+	
+	#content p {
+		line-height: 1.4;
+		margin: 0 0 15px 0; }
+
+	#meat {
+		float: left;
+		width: 560px; }
+
+	#veg {
+		float: left;
+		padding-left: 30px;
+		width: 260px; }
+		
+	.twtr-hd,
+	.twtr-join-conv,
+	.twtr-ft img {
+		display: none !important; }
+
+/*
+----------------------------------------------------------------------------- 
+FOOTER
+-----------------------------------------------------------------------------*/
+	#footer { }
+	
+	/* CENTERED
+
+	#inner-footer {
+		float: left;
+		overflow: hidden;
+		width: 100%; }
+
+	#footer ul {
+		float: left;
+		list-style: none;
+		position: relative;
+		left: 50%; }
+
+	#footer ul li {
+		float: left;
+		position: relative;
+		right: 50%;  }
+	*/
+	
+	#footer ul {
+		list-style: none;
+		margin: 0;
+		padding: 0; }
+		
+	#footer ul li {
+		float: left; }
+
+	#footer ul li a {
+		display: block;
+		padding: 0 20px; }
+		
+	#footer ul li img {
+		border: 0; }
+
+/*
+----------------------------------------------------------------------------- 
+GENERIC
+-----------------------------------------------------------------------------*/
+	.center {
+		text-align: center; }
+
+	.cf:after { 
+		content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden; }
+		
+	.cf { 
+		display: inline-block; } 
+		
+	/* Hides from IE-mac \*/
+	* html .cf { 
+		height: 1%; }
+		
+	.cf { 
+		display: block; }
+	/* End hide from IE-mac */

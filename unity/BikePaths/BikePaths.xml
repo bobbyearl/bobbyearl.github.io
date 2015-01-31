@@ -1,0 +1,640 @@
+<!-- NOTE: In order to work with Unity, this file must be encoded as ANSI or UTF-8 without BOM -->
+<config>
+
+	<!-- G E N E R A L -->
+	<text>
+		<id>submit</id>
+		<eng>SUBMIT</eng>
+		<spa>PRESENTAR</spa>
+	</text>
+	<text>
+		<id>begin</id>
+		<eng>BEGIN</eng>
+		<spa>COMENZAR</spa>
+	</text>
+	<text>
+		<id>continue</id>
+		<eng>CONTINUE</eng>
+		<spa>CONTINUAR</spa>
+	</text>
+	<text>
+		<id>tutorial</id>
+		<eng>Tutorial</eng>
+		<spa>Tutorial</spa>
+	</text>
+	<text>
+		<id>progress</id>
+		<eng>Progress</eng>
+		<spa>Progreso</spa>
+	</text>
+	<text>
+		<id>loading</id>
+		<eng>LOADING...</eng>
+		<spa>CARGANDO...</spa>
+	</text>
+	<text>
+		<id>next</id>
+		<eng>Next</eng>
+		<spa>Siguiente</spa>
+	</text>
+	<text>
+		<id>prev</id>
+		<eng>Back</eng>
+		<spa>Anterior</spa>
+	</text>
+	<text>
+		<id>paused</id>
+		<eng>Paused</eng>
+		<spa>Hizo una pausa</spa>
+	</text>
+	<text>
+		<id>exit</id>
+		<eng>Exit</eng>
+		<spa>Salida</spa>
+	</text>
+	<text>
+		<id>yes</id>
+		<eng>Yes</eng>
+		<spa>Ci</spa>
+	</text>
+	<text>
+		<id>no</id>
+		<eng>No</eng>
+		<spa>No</spa>
+	</text>
+	<text>
+		<id>safe</id>
+		<eng>Safe</eng>
+		<spa>Seguro</spa>
+	</text>
+	<text>
+		<id>lessSafe</id>
+		<eng>Less safe</eng>
+		<spa>Menos seguro</spa>
+	</text>
+	<text>
+		<id>unsafe</id>
+		<eng>Unsafe</eng>
+		<spa>Inseguro</spa>
+	</text>
+	<text>
+		<id>speedLimit</id>
+		<eng>Speed Limit</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>carLaneWidth</id>
+		<eng>Car Lane Width</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>carLaneWidth2</id>
+		<eng>Car Lane\nWidth</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>street</id>
+		<eng>Street</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>streetName</id>
+		<eng>Street Name</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>25mph</id>
+		<eng>25 mph</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>45mph</id>
+		<eng>45 mph</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>14feet</id>
+		<eng>14 feet</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>13feet</id>
+		<eng>13 feet</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>12feet</id>
+		<eng>12 feet</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>11feet</id>
+		<eng>11 feet</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>totalRoute</id>
+		<eng>Total Route\n</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>totalCost</id>
+		<eng>Total Cost:</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>totalLength</id>
+		<eng>Total Length:</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>roadLength</id>
+		<eng>Road Length (in miles)</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>costOfChange</id>
+		<eng>Cost of Change</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>safety</id>
+		<eng>Safety</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>table</id>
+		<eng>TABLE</eng>
+		<spa>TABLA</spa>
+	</text>
+	<text>
+		<id>ok</id>
+		<eng>OK</eng>
+		<spa>Está bién</spa>
+	</text>
+	<text>
+		<id>textareaPlaceholder</id>
+		<eng>Type answer here.</eng>
+		<spa>Escriba respuesta aquí.</spa>
+	</text>
+	<text>
+		<id>legend</id>
+		<eng>LEGEND</eng>
+		<spa>Legenda.</spa>
+	</text>
+	
+	<!-- T I M E O U T S -->
+	<float>
+		<id>calloutTime</id>
+		<value>30</value>
+	</float>
+	<float>
+		<id>timeoutTime</id>
+		<value>60</value>
+	</float>
+	<text>
+		<id>timeoutForwardButton</id>
+		<eng>Click the Next to continue.</eng>
+		<spa>Haga clic en el botón Siguiente para continuar.</spa>
+	</text>	
+	<text>
+		<id>timeoutbegin</id>
+		<eng>Click the Begin to continue.</eng>
+		<spa>Haga clic en el botón COMENZAR para continuar.</spa>
+	</text>
+	<text>
+		<id>timeoutSubmit</id>
+		<eng>Provide your response and click Submit to continue.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutSubmitEmpty</id>
+		<eng>Provide your response and click Submit to continue.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutNext</id>
+		<eng>Click Next to continue.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutContinue</id>
+		<eng>Click Continue to move on.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutTutorial</id>
+		<eng>Click Tutorial to continue.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutExit</id>
+		<eng>Click Exit to finish the scenario.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutSlide5</id>
+		<eng>Please use the slider to select 14 feet and 25 mph.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutSlide6</id>
+		<eng>Please select a response.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutSlide7</id>
+		<eng>Please use the sliders to create a car lane width and speed that is unsafe.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutSlide8</id>
+		<eng>Please fill in the table.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutSlide9</id>
+		<eng>Please enter a response.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutSlide13</id>
+		<eng>Please select a response.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutSlide21B</id>
+		<eng>Please design a route.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>timeoutSlide23</id>
+		<eng>Please enter a response.</eng>
+		<spa>Process SPA</spa>
+	</text>
+	<text>
+		<id>confirmSubmit</id>
+		<eng>Click Submit if you are satisfied with your answers or Cancel if you wish to change an answer before moving on.\n\nOnce you click Submit, you will not be able to change a previous answer.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>cancel</id>
+		<eng>Cancel</eng>
+		<spa>Cancel</spa>
+	</text>
+	
+	<!-- I N T R O -->
+	<text>
+		<id>slide1</id>
+		<eng>Many cities and towns are encouraging people to use bicycles by putting bike lanes on streets.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide2a</id>
+		<eng>A well-designed bike lane allows bikes and cars to share a road safely.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide2b</id>
+		<eng>A poorly designed bike lane can be dangerous.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide3</id>
+		<eng>In this task, you will choose the best locations for bike lanes to connect Pleasant Valley and Rolling Hills Park.\n\nYou will consider the following factors.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide3Bullet1</id>
+		<eng>Which route is the safest?</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide3Bullet2</id>
+		<eng>Which route is the shortest?</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide3Bullet3</id>
+		<eng>Which route is the least expensive?</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide4a</id>
+		<eng>SAFETY CONCERNS</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide4b</id>
+		<eng>The safety of a street for bicyclists is affected by car lane width and car speed.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide4c</id>
+		<eng>Streets are classified into three categories indicating safety for bicyclists.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide4Safe</id>
+		<eng>The street is considered safe for bicyclists.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide4LessSafe</id>
+		<eng>Certain streets are sometimes safe for bicyclists, but not always. This is because of truck traffic on these streets at certain times of day.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide4Unsafe</id>
+		<eng>The street is considered unsafe for bicyclists.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	
+	<!-- L A N E  T O O L -->
+	<text>
+		<id>slide5a</id>
+		<eng>Use the two sliders on the left to see how changing the car speed and car lane width affect the safety of a road.\n\nUse the sliders to perform the following.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide5b</id>
+		<eng>Change the car's speed limit to 25 mph by using the Speed Limit slider</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide5c</id>
+		<eng>Select 14 feet of car lane width by using the Car Lane Width slider</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide5d</id>
+		<eng>When you are finished, click Submit.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide6a</id>
+		<eng>Is this combination of speed limit and car lane width considered safe for bicycling?</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide6a</id>
+		<eng>Is this combination of speed limit and car lane width considered safe for bicycling?</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide6a</id>
+		<eng>Is this combination of speed limit and car lane width considered safe for bicycling?</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide7a</id>
+		<eng>Now use the sliders to create a car lane width and speed that is unsafe for bikes.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide8a</id>
+		<eng>Use the sliders to help you fill in the table below.  Adjusting the speed and width will allow you to see each combination in the table.\n\nWhen you are finished, click Next.</eng>
+		<spa>Process SPA.</spa>
+	</text>	
+	<text>
+		<id>slide9</id>
+		<eng>Explain how the combination of lane width and speed limit affects the safety of a bike lane. Support your answer with information from the table on the left.\n\nType your answer in the box below.  Then click Submit.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide10</id>
+		<eng>The shortest route (route XGHJ) connecting Pleasant Valley and Rolling Hills Park is shown on the map on the left. The total route length is shown below the map.\n\nEach street along the route has a lane width and speed limit.\n\nThe combination of those two factors affects the safety of that street for bicyclists.\n\nYou will now learn the safety of the highlighted route.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide11</id>
+		<eng>Place the mouse over each street along route XGHJ.\n\nAs you move the mouse over each street, you will see the width, speed, and safety information of that street appear in the table below.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide13a</id>
+		<eng>You should have discovered that along this route, only G Street is always safe for bikes.  ALL streets along the route must be safe for bicyclists.\n\nLook at the list below of possible changes to the route.  Some of the changes below will make the streets safer for bikes. Select all the changes that will make the street safer.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide13b</id>
+		<eng>Click Table to review the width, speed, and safety information of all the streets along this route.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide13Answer1</id>
+		<eng>Increase the speed limit of J Street to 45 mph.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide13Answer2</id>
+		<eng>Increase the lane width of J Street to 14 feet.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide13Answer3</id>
+		<eng>Decrease the speed limit of H Street to 25 mph.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide13Answer4</id>
+		<eng>Increase the lane width of H Street to 14 feet.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide13Answer5</id>
+		<eng>Increase the speed limit of G Street to 45 mph.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide13Answer6</id>
+		<eng>Decrease the lane width of G Street to 13 feet.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide13Answer7</id>
+		<eng>Increase the lane width of X Street to 13 feet.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide15</id>
+		<eng>This is what the route would look like if all the necessary changes were made.\n\nThe cost to make the changes is shown in the lower left below the map.\n\nUnfortunately, the town cannot afford to make these proposed changes.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide16</id>
+		<eng>You need to propose a different route connecting Pleasant Valley and Rolling Hills Park.\n\nYou will design your route by selecting roads on the map.\n\nClick Tutorial to watch an animated demo showing how this tool works.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide17</id>
+		<eng>When you click on a street, it will be highlighted.\n\nThe street name, street length, and cost to change the street so that it is safe for bicycling will appear below the map.\n\nAdditional information about the speed limit and lane width of the street will also appear in a table.\n\nClick Continue to go on.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide18</id>
+		<eng>Clicking on a second street will add the cost and length of the new street to the total cost at the bottom of the map.\n\nAdditional information about the second street will display in the table, and a new row will be added below to display the total selected route.\n\nClick Continue to go on.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide19</id>
+		<eng>To change the route, click on a selected street again to deselect it.  The totals and the table will be updated.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide20</id>
+		<eng>To change the route, click on a selected street again to deselect it.  The totals and the table will be updated.\n\nThen click on a new street.  Information will change again at the bottom of the map and in the table below.\n\nClick Next to set your own route or Back to review the tutorial.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide21a</id>
+		<eng>Design a different SAFE route connecting Pleasant Valley and Rolling Hills Park.  Your route should include only minimal changes (if any) to existing streets.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide21b</id>
+		<eng>Your safe route must be the following (in order of importance).</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide21c</id>
+		<eng>FIRST: The least expensive route</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide21d</id>
+		<eng>SECOND: The shortest route</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide21e</id>
+		<eng>NOTE: Changing the width of a street is a lot more expensive than changing its speed limit.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide21f</id>
+		<eng>Click Next when you are finished. Click Tutorial to review directions for using the map tool.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide21g</id>
+		<eng>Design your route.\n\nClick Next when you are finished.  Click Tutorial to review directions for using the map tool.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide22</id>
+		<eng>Design your route.\n\nClick on a street to select it.\n\nClick on additional streets to select your route.\n\nTo change your route, click on a selected street to deselect it and click on a new street.</eng>
+		<spa>Process SPA.</spa>
+	</text>
+	<text>
+		<id>slide23</id>
+		<eng>You have selected Route {0}. Explain below why you selected this route.  Refer to the information in the table to support your answer.\n\nClick Submit when you are finished.</eng>
+		<spa>Process SPA.</spa>
+	</text>	
+	<text>
+		<id>slide24</id>
+		<eng>Thank you for your proposal. The town appreciates your advice.</eng>
+		<spa>Process SPA.</spa>
+	</text>	
+
+	
+	
+	<!-- S T R E E T S -->
+	<text>
+		<id>street</id>
+		<eng>Street</eng>
+		<spa>Street</spa>
+	</text>
+	<float>
+		<id>streetACost</id>
+		<value>0</value>
+	</float>
+	<float>
+		<id>streetALength</id>
+		<value>1.25</value>
+	</float>
+	<float>
+		<id>streetBCost</id>
+		<value>0</value>
+	</float>
+	<float>
+		<id>streetBLength</id>
+		<value>2.25</value>
+	</float>
+	<float>
+		<id>streetCCost</id>
+		<value>2000</value>
+	</float>
+	<float>
+		<id>streetCLength</id>
+		<value>2.25</value>
+	</float>
+	<float>
+		<id>streetDCost</id>
+		<value>10000</value>
+	</float>
+	<float>
+		<id>streetDLength</id>
+		<value>1.25</value>
+	</float>
+	<float>
+		<id>streetECost</id>
+		<value>2000</value>
+	</float>
+	<float>
+		<id>streetELength</id>
+		<value>2.75</value>
+	</float>
+	<float>
+		<id>streetFCost</id>
+		<value>0</value>
+	</float>
+	<float>
+		<id>streetFLength</id>
+		<value>1.25</value>
+	</float>
+	<float>
+		<id>streetGCost</id>
+		<value>0</value>
+	</float>
+	<float>
+		<id>streetGLength</id>
+		<value>1</value>
+	</float>
+	<float>
+		<id>streetHCost</id>
+		<value>22000</value>
+	</float>
+	<float>
+		<id>streetHLength</id>
+		<value>2</value>
+	</float>
+	<float>
+		<id>streetJCost</id>
+		<value>10000</value>
+	</float>
+	<float>
+		<id>streetJLength</id>
+		<value>1</value>
+	</float>
+	<float>
+		<id>streetKCost</id>
+		<value>0</value>
+	</float>
+	<float>
+		<id>streetKLength</id>
+		<value>1.55</value>
+	</float>
+	<float>
+		<id>streetXCost</id>
+		<value>10000</value>
+	</float>
+	<float>
+		<id>streetXLength</id>
+		<value>.75</value>
+	</float>
+	<float>
+		<id>roadFactor</id>
+		<value>.744</value>
+	</float>
+</config>

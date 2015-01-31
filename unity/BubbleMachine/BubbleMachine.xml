@@ -1,0 +1,361 @@
+<!-- NOTE: In order to work with Unity, this file must be encoded as ANSI or UTF-8 without BOM -->
+<config>
+
+	<!-- G E N E R A L -->
+	<text>
+		<id>submit</id>
+		<eng>Submit</eng>
+		<spa>Presentar</spa>
+	</text>
+	<text>
+		<id>begin</id>
+		<eng>Begin</eng>
+		<spa>Comenzar</spa>
+	</text>
+	<text>
+		<id>continue</id>
+		<eng>Continue</eng>
+		<spa>CONTINUAR</spa>
+	</text>
+	<text>
+		<id>ok</id>
+		<eng>OK</eng>
+		<spa>OK</spa>
+	</text>	
+	<text>
+		<id>tutorial</id>
+		<eng>Tutorial</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>guidelines</id>
+		<eng>Guidelines</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>progress</id>
+		<eng>Progress</eng>
+		<spa>Progreso</spa>
+	</text>
+	<text>
+		<id>loading</id>
+		<eng>LOADING...</eng>
+		<spa>CARGANDO...</spa>
+	</text>
+	<text>
+		<id>paused</id>
+		<eng>Paused</eng>
+		<spa>Hizo una pausa</spa>
+	</text>
+	<text>
+		<id>exit</id>
+		<eng>Exit</eng>
+		<spa>Salida</spa>
+	</text>
+	<text>
+		<id>table</id>
+		<eng>Table</eng>
+		<spa>Tabla</spa>
+	</text>
+	<text>
+		<id>cancel</id>
+		<eng>Cancel</eng>
+		<spa>Cancel</spa>
+	</text>
+	<text>
+		<id>run</id>
+		<eng>Run</eng>
+		<spa>Ejecutar</spa>
+	</text>
+	<text>
+		<id>confirmSubmit</id>
+		<eng>Click Submit if you are satisfied with the data collected, or click Cancel if you wish to run more experiments.\n\nOnce you click Submit, you will not be able to run any more experiments.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>yes</id>
+		<eng>Yes</eng>
+		<spa>Si</spa>
+	</text>
+	<text>
+		<id>no</id>
+		<eng>No</eng>
+		<spa>No</spa>
+	</text>	
+	<text>
+		<id>bubbleMachine</id>
+		<eng>Bubble Machine</eng>
+		<spa>Máquina de Burbujas</spa>
+	</text>	
+	<text>
+		<id>fanSpeed</id>
+		<eng>Fan Speed</eng>
+		<spa>Traducción en curso</spa>
+	</text>	
+	<text>
+		<id>bubbleMixture</id>
+		<eng>Bubble Mixture</eng>
+		<spa>Traducción en curso</spa>
+	</text>	
+	<text>
+		<id>observation</id>
+		<eng>Experiment</eng>
+		<spa>Traducción en curso</spa>
+	</text>	
+	<text>
+		<id>bubbleDiameter</id>
+		<eng>Bubble Diameter (inches)</eng>
+		<spa>Traducción en curso</spa>
+	</text>	
+	<text>
+		<id>bubbleDiameterUsingMixtureA</id>
+		<eng>Bubble Diameter Using Mixture A</eng>
+		<spa>Traducción en curso</spa>
+	</text>	
+	<text>
+		<id>bubbleDiameterUsingMixtureB</id>
+		<eng>Bubble Diameter Using Mixture B</eng>
+		<spa>Traducción en curso</spa>
+	</text>	
+	<text>
+		<id>practiceRun</id>
+		<eng>Practice</eng>
+		<spa>Traducción en curso</spa>
+	</text>	
+	<text>
+		<id>spreadsheet</id>
+		<eng>Spreadsheet</eng>
+		<spa>Traducción en curso</spa>
+	</text>	
+	<text>
+		<id>createChart</id>
+		<eng>Create Chart</eng>
+		<spa>Traducción en curso</spa>
+	</text>	
+	<text>
+		<id>solutionA</id>
+		<eng>Mixture A</eng>
+		<spa>Traducción en curso</spa>
+	</text>	
+	<text>
+		<id>solutionB</id>
+		<eng>Mixture B</eng>
+		<spa>Traducción en curso</spa>
+	</text>	
+	<text>
+		<id>chartPie</id>
+		<eng>Pie</eng>
+		<spa>Traducción</spa>
+	</text>	
+	<text>
+		<id>chartLine</id>
+		<eng>Line</eng>
+		<spa>Traducción</spa>
+	</text>	
+	<text>
+		<id>chartBarStack</id>
+		<eng>Bar Stacked</eng>
+		<spa>Traducción</spa>
+	</text>	
+	<text>
+		<id>chartBarCluster</id>
+		<eng>Bar Cluster</eng>
+		<spa>Traducción</spa>
+	</text>	
+	
+	<!-- T I M E O U T S -->
+	<float>
+		<id>calloutTime</id>
+		<value>30</value>
+	</float>
+	<float>
+		<id>timeoutTime</id>
+		<value>60</value>
+	</float>
+	<text>
+		<id>timeoutNext</id>
+		<eng>Click Continue to move forward.</eng>
+		<spa>Haga clic en el botón Siguiente para continuar.</spa>
+	</text>	
+	<text>
+		<id>timeoutBegin</id>
+		<eng>Click BEGIN to continue.</eng>
+		<spa>Haga clic en el botón COMENZAR para continuar.</spa>
+	</text>
+	<text>
+		<id>timeoutSubmit</id>
+		<eng>Please answer the question and click Submit to continue.</eng>
+		<spa>Por favor responder a la pregunta y haga clic en el botón Enviar para continuar.</spa>
+	</text>
+	<text>
+		<id>timeoutDisabledSubmit</id>
+		<eng>Please answer the question and then click Submit to continue.</eng>
+		<spa>Por favor responder a la pregunta y haga clic en el botón Enviar para continuar.</spa>
+	</text>
+	<text>
+		<id>timeoutPlayPause</id>
+		<eng>Please click the play button.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	
+	<!-- I T E M  1 -->
+	<text>
+		<id>slide2</id>
+		<eng>You are going to have a party, and you want to use a bubble machine to create bubbles for the party.\n\nYour goal is to get the bubble machine to make the biggest bubbles.\n\nClick Begin to get started.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide3</id>
+		<eng>You will be working with a simulation of the bubble machine.  The simulation will help you figure out how to get the biggest bubbles for the party.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide4a</id>
+		<eng>To get the biggest bubbles, you can change controls on the bubble machine:</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide4b</id>
+		<eng>Buttons A and B change the bubble mixture.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide5</id>
+		<eng>Numbers on the dial change the fan speed.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide6</id>
+		<eng>Now, you can practice using the simulation.\n\nChange the fan speed to 3.\n\nPress Run to test the bubble machine.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide8</id>
+		<eng>The bubble machine settings and the average bubble diameter are recorded for you.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide9a</id>
+		<eng>Now you are ready to use the bubble machine. Your job is to figure out how to make the biggest bubbles.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide9b</id>
+		<eng>You must decide how many experiments to do, but you can't do more than 15 experiments.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide9c</id>
+		<eng>When you think you are finished, click Submit to go on.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	
+	<!-- I T E M  2 -->
+	<text>
+		<id>slide10a</id>
+		<eng>Based on your experiments, what settings should be used to create the largest bubbles?</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide10b</id>
+		<eng>1</eng>
+		<spa>1</spa>
+	</text>
+	<text>
+		<id>slide10C</id>
+		<eng>2</eng>
+		<spa>2</spa>
+	</text>
+	<text>
+		<id>slide10d</id>
+		<eng>3</eng>
+		<spa>3</spa>
+	</text>
+	<text>
+		<id>slide10e</id>
+		<eng>4</eng>
+		<spa>4</spa>
+	</text>
+	<text>
+		<id>slide10f</id>
+		<eng>5</eng>
+		<spa>5</spa>
+	</text>
+	<text>
+		<id>slide10g</id>
+		<eng>A</eng>
+		<spa>A</spa>
+	</text>
+	<text>
+		<id>slide10h</id>
+		<eng>B</eng>
+		<spa>B</spa>
+	</text>
+
+	<!-- I T E M  3 -->
+	<text>
+		<id>slide11</id>
+		<eng>Your friend has entered the average bubble size for both bubble mixtures and all fan speeds into a spreadsheet.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide12a</id>
+		<eng>Your friend wants to know how the choice of fan speed and bubble mixture affects the bubble size.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide12b</id>
+		<eng>Create a chart that shows the relationship between fan speed, bubble mixture, and bubble size.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide12c</id>
+		<eng>To create a chart, click Create Chart and choose the best chart for your needs. Click Submit when you are finished.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	
+	<!-- I T E M  4 -->
+	<text>
+		<id>slide15a</id>
+		<eng>How does the choice of fan speed and bubble mixture affect bubble size?</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide15b</id>
+		<eng>Select the correct answer below. You can use the information in the spreadsheet to help you choose the right answer. Click Submit when you are finished.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide15c</id>
+		<eng>The lower the fan speed, the bigger the bubbles for Mixtures A and B.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide15d</id>
+		<eng>The higher the fan speed, the bigger the bubbles for Mixtures A and B.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide15e</id>
+		<eng>After a certain speed is reached, increasing the fan speed makes the bubbles smaller for Mixtures A and B.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide15f</id>
+		<eng>The bubbles produced by Mixture A are always smaller than the bubbles produced by Mixture B.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide16</id>
+		<eng>You are now ready to make big bubbles for the party!</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<!--
+	<text>
+		<id>slide</id>
+		<eng></eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	-->
+	
+</config>
