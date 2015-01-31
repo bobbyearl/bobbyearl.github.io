@@ -1,0 +1,621 @@
+<!-- NOTE: In order to work with Unity, this file must be encoded as ANSI or UTF-8 without BOM -->
+<config>
+
+	<!-- G E N E R A L -->
+	<text>
+		<id>paused</id>
+		<eng>Simulation currently paused.</eng>
+		<spa>Simulación que se encuentra en pausa.</spa>
+	</text>
+	<text>
+		<id>submit</id>
+		<eng>Submit</eng>
+		<spa>Presentar</spa>
+	</text>
+	<text>
+		<id>begin</id>
+		<eng>BEGIN</eng>
+		<spa>COMENZAR</spa>
+	</text>
+	<text>
+		<id>next</id>
+		<eng>Next</eng>
+		<spa>Siguiente</spa>
+	</text>
+	<text>
+		<id>prev</id>
+		<eng>Back</eng>
+		<spa>Anterior</spa>
+	</text>
+	<text>
+		<id>continue</id>
+		<eng>Continue</eng>
+		<spa>Continuar</spa>
+	</text>
+	<text>
+		<id>tutorial</id>
+		<eng>Tips</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>guidelines</id>
+		<eng>Requirements</eng>
+		<spa>SPA</spa>
+	</text>
+	<text>
+		<id>progress</id>
+		<eng>Progress</eng>
+		<spa>Progreso</spa>
+	</text>
+	<text>
+		<id>loading</id>
+		<eng>LOADING...</eng>
+		<spa>CARGANDO...</spa>
+	</text>
+	<text>
+		<id>paused</id>
+		<eng>Paused</eng>
+		<spa>Hizo una pausa</spa>
+	</text>
+	<text>
+		<id>exit</id>
+		<eng>Exit</eng>
+		<spa>Salida</spa>
+	</text>
+	<text>
+		<id>table</id>
+		<eng>Table</eng>
+		<spa>Tabla</spa>
+	</text>
+	<text>
+		<id>cancel</id>
+		<eng>Cancel</eng>
+		<spa>Cancel</spa>
+	</text>
+	<text>
+		<id>ok</id>
+		<eng>OK</eng>
+		<spa>SI</spa>
+	</text>
+	<text>
+		<id>artGallery</id>
+		<eng>Art Gallery</eng>
+		<spa>Galería de Arte</spa>
+	</text>
+	<text>
+		<id>confirmSubmit</id>
+		<eng>Click Submit if you are satisfied with your answer or Cancel if you wish to change your answer before moving on.\n\nOnce you click Submit, you will not be able to change a previous answer.\n</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>complaints</id>
+		<eng>COMPLAINTS</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>1</id>
+		<eng>1</eng>
+		<spa>1</spa>
+	</text>
+	<text>
+		<id>2</id>
+		<eng>2</eng>
+		<spa>2</spa>
+	</text>
+	<text>
+		<id>3</id>
+		<eng>3</eng>
+		<spa>3</spa>
+	</text>
+	<text>
+		<id>4</id>
+		<eng>4</eng>
+		<spa>4</spa>
+	</text>
+	<text>
+		<id>a</id>
+		<eng>A</eng>
+		<spa>A</spa>
+	</text>
+	<text>
+		<id>b</id>
+		<eng>B</eng>
+		<spa>B</spa>
+	</text>
+	<text>
+		<id>c</id>
+		<eng>C</eng>
+		<spa>C</spa>
+	</text>
+	<text>
+		<id>d</id>
+		<eng>D</eng>
+		<spa>D</spa>
+	</text>
+	<text>
+		<id>none</id>
+		<eng>None</eng>
+		<spa>None</spa>
+	</text>
+	<text>
+		<id>satisfied</id>
+		<eng>Satisfied</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>notSatisfied</id>
+		<eng>I want to change my selection.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>north</id>
+		<eng>North\nGallery</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>south</id>
+		<eng>South\nGallery</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>mainGallery</id>
+		<eng>Main Gallery</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>lobby</id>
+		<eng>Lobby</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>enter</id>
+		<eng>Enter</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>designRequirements</id>
+		<eng>Design Requirements</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>designTools</id>
+		<eng>Design Tools</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>reqRollover</id>
+		<eng>Move the mouse over each option to see the associated requirement.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>southRoomLight</id>
+		<eng>Light Switch</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>tutorialA</id>
+		<eng>Use the person object to help measure the size of the opening. Drag the person object into the gallery space to measure the opening.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>tutorialB</id>
+		<eng>You can drag the person object around the gallery space and when it changes from RED to BLUE, it can be dropped in a new location. You can use up to five person objects.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>tutorialC</id>
+		<eng>Resize the wall using the mouse, and drag it to the desired width.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>textareaPlaceholder</id>
+		<eng>Type answer here.</eng>
+		<spa>Escriba respuesta aquí.</spa>
+	</text>
+	
+	<!-- T I M E O U T S -->
+	<float>
+		<id>calloutTime</id>
+		<value>30</value>
+	</float>
+	<float>
+		<id>calloutTimeSlide4</id>
+		<value>3</value>
+	</float>
+	<float>
+		<id>timeoutTime</id>
+		<value>60</value>
+	</float>
+	<text>
+		<id>timeoutForwardButton</id>
+		<eng>Click Next to continue.</eng>
+		<spa>Haga clic Siguiente para continuar.</spa>
+	</text>	
+	<text>
+		<id>timeoutbegin</id>
+		<eng>Click Begin to continue.</eng>
+		<spa>Haga clic Comenzar para continuar.</spa>
+	</text>
+	<text>
+		<id>timeoutSubmit</id>
+		<eng>Please answer the question and click Submit to continue.</eng>
+		<spa>Por favor responder a la pregunta y haga clic Enviar para continuar.</spa>
+	</text>
+	<text>
+		<id>timeoutDisabledSubmit</id>
+		<eng>Please answer the question.</eng>
+		<spa>Por favor responder a la pregunta y haga clic en el botón Enviar para continuar.</spa>
+	</text>
+	
+	<!-- P E O P L E-->
+	<text>
+		<id>marco</id>
+		<eng>Marco\nGallery Designer</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	
+	<!-- I N T R O -->
+	<text>
+		<id>slide4</id>
+		<eng>A local school has an art gallery that displays student works.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide5a</id>
+		<eng>People are complaining about the gallery layout.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide5b</id>
+		<eng>You need to redesign the gallery to address the complaints.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide6</id>
+		<eng>There are some design requirements for the gallery. When you redesign the gallery, you must include these requirements.\n\nThese requirements will be available to you during this entire task.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	
+	<!-- MARCO -->
+	<text>
+		<id>slide7</id>
+		<eng>Marco, a gallery designer, will share four design requirements for this gallery.\n\nClick Next to review the four requirements.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide8</id>
+		<eng>An interactive kiosk is in the Main Gallery. Visitors should go directly to the Main Gallery to read artists' statements before viewing the show.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide9</id>
+		<eng>There is a fire exit in the Main Gallery. All side rooms must open into the Main Gallery in case of an emergency.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide10</id>
+		<eng>Visitors must be able to stand at least 12 feet away from a work of art.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide11</id>
+		<eng>Openings into the Main Gallery must be at least 6 feet wide (wide enough to fit three average-size adults standing side by side).</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide12</id>
+		<eng>Click Requirements below to review Marco's design requirements.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<!-- DESIGN TOOLS -->
+	<text>
+		<id>slide13</id>
+		<eng>You may propose the following changes to the partitions (the interior walls that divide the spaces):</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide14a</id>
+		<eng>Partitions can be moved.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide14b</id>
+		<eng>Click the highlighted partitions to watch them move.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide15a</id>
+		<eng>Partitions can be made longer or shorter.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide15b</id>
+		<eng>Click the highlighted partitions to watch them shrink or grow in length.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide16a</id>
+		<eng>Now it's time to review the 3 complaints about the gallery.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide16b</id>
+		<eng>Your job will be to propose the best way to solve each problem.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide16c</id>
+		<eng>To review Marco's requirements at any time, click Requirements below.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	
+	<!-- REVIEW COMPLAINTS -->
+	<text>
+		<id>slide17a</id>
+		<eng>FIRST COMPLAINT</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide17b</id>
+		<eng>"I didn't know which room to go to next when I was in the Lobby."</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide17c</id>
+		<eng>Which way do I go?</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide18a</id>
+		<eng>SECOND COMPLAINT</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide18b</id>
+		<eng>"The North Gallery is too narrow. I couldn't stand back far enough to get a good look at the big painting on the wall."</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide18c</id>
+		<eng>I wish I could stand back a little farther.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide19a</id>
+		<eng>THIRD COMPLAINT</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide19b</id>
+		<eng>"The opening to the North Gallery is too narrow. I had trouble getting around people."</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide19c</id>
+		<eng>Excuse me...</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	
+	<!-- FIRST COMPLAINT (First part)-->
+	<text>
+		<id>slide20</id>
+		<eng>Let's consider the first complaint:</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide21a</id>
+		<eng>Remember the requirement that says:</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide21b</id>
+		<eng>An interactive kiosk is in the Main Gallery. Visitors should go directly to the Main Gallery to read artists' statements before viewing the show.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide22a</id>
+		<eng>The correct way to view the gallery is to go straight from the Lobby to the Main Gallery.\n\nHow can you change the layout so people know to go straight from the Lobby to the Main Gallery?</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide22b</id>
+		<eng>Look at the following four suggestions.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide23a</id>
+		<eng>You could move the partition between the Lobby and the Main Gallery to make the Lobby bigger.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide23b</id>
+		<eng>Click the highlighted wall and watch it move.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide24a</id>
+		<eng>You could narrow the opening between the Lobby and the Main Gallery.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide24b</id>
+		<eng>Click the highlighted wall to narrow the opening.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide25a</id>
+		<eng>You could close the opening between the Lobby and the South Gallery and make a new 6-foot wide opening.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide25b</id>
+		<eng>Click the highlighted wall to close the opening. Other possible opening locations will appear.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide26a</id>
+		<eng>You could make the South Gallery really dark so that it is unwelcoming to enter.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide26b</id>
+		<eng>Click the South Gallery light switch to make it dark.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide27</id>
+		<eng>Select one of the suggested changes. Refer to the Requirements to help with your decision. When you are finished answering the question, click Submit.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide29</id>
+		<eng>The best suggestion is to close the opening between the Lobby and the South Gallery. That way, visitors entering the Lobby can only go into the Main Gallery.\n\nBut now you must propose a new opening into the South Gallery.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	
+	<!-- FIRST COMPLAINT (Second Part) -->
+	<text>
+		<id>slide31</id>
+		<eng>Look at the four proposed opening locations into the South Gallery.\n\nSoon you will select a new opening into the South Gallery.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide33</id>
+		<eng>Click each of the buttons below to view the four proposed 6-foot wide openings. After you've viewed all four openings, click Next.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide37a</id>
+		<eng>Select a new way to enter the South Gallery.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide37b</id>
+		<eng>In the space below, describe why you selected the opening you did. Use information in the design requirements to support your answer.\n\nWhen you are finished, click Submit.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide38</id>
+		<eng>Which design requirement, if any, does your selection violate? If none, click None.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide39</id>
+		<eng>Now that you have reviewed the design requirements, are you satisfied with the opening location you selected?</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide39b</id>
+		<eng>If you’re not satisfied, you may select a new way to enter the South Gallery.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	
+	<!-- SECOND COMPLAINT -->
+	<text>
+		<id>slide41a</id>
+		<eng>Now that you have selected an opening into the South Gallery, let's consider the second complaint.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide42</id>
+		<eng>Which design requirement refers directly to this problem?</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide43</id>
+		<eng>Marco thinks that moving the wall between the Main Gallery and the North Gallery will let people stand farther back from the art.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide44</id>
+		<eng>Now that the wall in the North Gallery has been moved, are you still satisfied with the opening location you selected for the South Gallery?</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide45</id>
+		<eng>Select a new way to enter the South Gallery.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide46</id>
+		<eng>Marco thinks that 3 is the best door location.\n\nHe reminds you that all the side galleries must open directly into the Main Gallery.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	
+	<!-- THIRD COMPLAINT -->
+	<text>
+		<id>slide47</id>
+		<eng>Now let's consider the last complaint:</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide49</id>
+		<eng>You must adjust the wall between the Main Gallery and the North Gallery to improve the opening between the rooms. Make sure you still have enough wall space to hang the paintings.\n\nClick Next to learn how to use the tools you will need.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide50a</id>
+		<eng>Demo</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide50b</id>
+		<eng>To place an object, you will drag and drop it into the gallery space. The object's placement will be based on where you release it. When the person object changes from RED to BLUE, it can be dropped in a new location.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide51</id>
+		<eng>You can use this object to help you measure distance. Once placed in the gallery, the object will be scaled to the correct size.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide52</id>
+		<eng>To change the size of the opening, click the wall and hold the mouse button down. Then, move the wall to the right or the left. When you are happy with the size of the opening, release the mouse button.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide53</id>
+		<eng>Change the size of the opening into the North Gallery so that it follows the recommended design requirements. Click Tips to review instructions for using the person object and changing the opening.\n\nWhen you are finished, click Submit.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide53.5</id>
+		<eng>The correct width of the opening between the Main Gallery and the North Gallery is at least 6 feet wide (wide enough to fit three average-size adults standing side by side).\n\nClick Next to see the gallery with all improvements made to the space.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>doubleHeadedArrow</id>
+		<eng>6 feet wide</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	
+	<!-- CONCLUSION -->
+	<text>
+		<id>slide54a</id>
+		<eng>On the right, you will see the layout of the gallery with all the improvements made to the space.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide54b</id>
+		<eng>Review the complaints listed below and check off all that have been addressed by the new design.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide54c</id>
+		<eng>Click all of the complaints that have been addressed. Then click Submit.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	<text>
+		<id>slide55</id>
+		<eng>Thank you for helping redesign the student art gallery.</eng>
+		<spa>Traducción en curso</spa>
+	</text>
+
+	<!--
+	<text>
+		<id></id>
+		<eng></eng>
+		<spa>Traducción en curso</spa>
+	</text>
+	-->	
+</config>

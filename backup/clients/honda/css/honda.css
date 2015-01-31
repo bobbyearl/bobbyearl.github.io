@@ -1,0 +1,99 @@
+	form {
+		margin: 0;
+		padding: 0; }
+		
+	ol {
+		margin: 0 0 0 15px;
+		padding: 0; }
+			
+	ol li {
+		 padding-bottom: 10px; }		
+		
+	ul {
+		margin: 0 0 0 15px;
+		padding: 0; }	
+	
+	ul li {
+		list-style: none;
+		padding-top: 5px; }
+	h1,
+	h2,	 
+	p {
+		padding: 7px; }
+
+	.alert,
+	.required {
+		background: inherit;
+		color: #FF0000; }
+		
+	.honda_fill p {
+		font-size: 20px !important; }
+		
+	.honda_fill p a {
+		font-size: 12px !important; }
+		
+	.honda_fill #answer_wrapper {
+		border: solid 1px #000;
+		background: #e6eef7;
+		text-align: center;
+		width: 350px; }
+		
+	.honda_fill #answer_wrapper #title {
+		background: #03a6e0; 
+		color: #FFF; 
+		margin: 0;
+		text-align: center; }
+		
+	.honda_fill #answer_wrapper #answer {
+		font-size: 30px !important;
+		margin: 0;
+		padding: 0;
+		text-align: center; }
+		
+	.honda_fill #answer_wrapper #publish {
+		display: none;
+		margin: 0;
+		padding: 10px 0;
+		text-align: center; }
+		
+	.honda_fill #message {
+		font-size: 12px !important;
+		position: absolute;
+		right: 20px;
+		top: 30px; }
+		
+	#honda_header {
+		background: url(http://honda.simplyearl.com/img/header.gif) no-repeat 0 0;
+		height: 94px; }
+		
+	#honda_header h1 {
+		color: white;
+		font-size: 20px;
+		padding: 40px; }
+		
+	#honda_wrapper {
+		background: url(http://honda.simplyearl.com/img/bg.gif) repeat-y 0 0;
+		width: 760px; }
+		
+	#honda_body {
+		margin: 10px 30px;
+		position: relative; }
+		
+	#honda_know {
+		background: url(http://honda.simplyearl.com/img/know.gif) no-repeat 0 0;
+		bottom: 5px;
+		height: 95px;
+		position: absolute;
+		right: 5px;
+		width: 250px; }
+		
+	#honda_footer {
+		background: url(http://honda.simplyearl.com/img/footer.gif) no-repeat 0 0;
+		height: 22px; }
+		
+	#car {
+		text-align: center; }
+		
+	#car img {
+		border: solid 1px #000;
+		margin: 0 0 20px 0; }
