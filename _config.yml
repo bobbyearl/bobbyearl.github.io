@@ -1,0 +1,32 @@
+# Site setup
+title: Bobby Earl
+email: bobby@simplyearl.com
+url: http://bobbyearl.com
+permalink: /blog/:year/:month/:day/:title/
+paginate: 10
+paginate_path: /blog/:num
+
+# Use bower
+sass:
+  style: compresesed
+  sass_dir: bower_components
+
+# Default layout
+defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      layout: "base"
+  - 
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+      showComments: true
+      
+# Site content
+dates:
+  married: '2007-11-17'
+  reeves: '2009-02-08'
+  william: '2010-12-16'

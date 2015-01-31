@@ -1,0 +1,83 @@
+[
+  {
+    title: 'Our NRCS Rollout Report',
+    description: '',
+    thumbnail: 'assets/img/nrcs-mrt-rollout-report.png',
+    tech: [
+     'HTML5',
+     'CSS3'
+    ]
+   },
+  {
+    title: 'Our NRCS Resource Toolbox',
+    description: '',
+    thumbnail: 'assets/img/nrcs-mrt.png',
+    tech: [
+     'HTML / HTML5',
+     'CSS3 / Bootstrap',
+     'Handlebars'
+    ]
+   },
+  {
+    title: 'VarnerMiller Architect',
+    description: '',
+    thumbnail: 'assets/img/architect.png',
+    tech: [
+     'PHP',
+     'SQL (MySQL)',
+     'HTML5',
+     'CSS3',
+     'JS / jQuery'
+    ]
+   },
+  {
+    title: 'Unity3D Game Management',
+    description: '',
+    thumbnail: 'assets/img/unity3d.png',
+    tech: [
+     'Unity3D',
+     'C#'
+    ]
+   },
+  {
+    title: 'CofC Shopping Cart',
+    description: '',
+    thumbnail: 'assets/img/cofc-cart.png',
+    tech: [
+     'C#',
+     'ASP.NET',
+     'SQL (MS SQL Server)'
+    ]
+   },
+  {
+    title: 'CofC Scrapbook',
+    description: '',
+    thumbnail: 'assets/img/cofc-scrapbook.png',
+    tech: [
+     'C#',
+     'ASP.NET',
+     'Flickr API'
+    ]
+   },
+  {
+    title: 'Navy Networks 101',
+    description: '',
+    thumbnail: 'assets/img/nnu.png',
+    tech: [
+     'HTML / HTML5',
+     'CSS3 / Bootstrap',
+     'Handlebars',
+     'SCORM'
+    ]
+   },
+  {
+    title: 'ICE ERO Field Operations',
+    description: '',
+    thumbnail: 'assets/img/ice-ero.png',
+    tech: [
+     'Adobe Flash',
+     'ActionScript 3',
+     'SCORM'
+    ]
+   }
+  ]
