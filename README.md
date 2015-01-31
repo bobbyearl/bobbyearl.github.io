@@ -1,2 +1,2 @@
-bobbyearl.github.io
+simplyearl.github.io
 ===================
