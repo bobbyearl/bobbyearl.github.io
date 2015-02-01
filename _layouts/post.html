@@ -21,6 +21,10 @@ isBlog: true
   <div class="comments">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
+      
+      // Probably a better way to handle this when I migrated from Wordpress
+      var disqus_url = 'http://life.bobbyearl.com{{ page.permalink }}';
+      
       (function() {
           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
           dsq.src = '//bobbyearl.disqus.com/embed.js';
