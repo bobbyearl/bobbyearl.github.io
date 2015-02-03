@@ -16,9 +16,24 @@ isBlog: true
 
 </div>
 
+<div class="post-footer">
+  <ul class="pager">
+    {% if page.next %}
+      <li class="previous">
+        <a href="{{ page.next.url | prepend: site.baseurl }}"><i class="fa fa-angle-double-left"></i> {{ page.next.title }}</a>
+      </li>      
+    {% endif %}
+    {% if page.previous %}
+      <li class="next">
+        <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }} <i class="fa fa-angle-double-right"></i></a>
+      </li>
+    {% endif %}  
+  </ul>
+</div>
+
 {% if page.showComments %}
 
-  <div class="comments">
+  <div class="comments" id="comments">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
       
@@ -36,18 +51,3 @@ isBlog: true
   </div>
 
 {% endif %}
-
-<div class="post-footer">
-  <ul class="pager">
-    {% if page.next %}
-      <li class="previous">
-        <a href="{{ page.next.url | prepend: site.baseurl }}"><i class="fa fa-angle-double-left"></i> {{ page.next.title }}</a>
-      </li>      
-    {% endif %}
-    {% if page.previous %}
-      <li class="next">
-        <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }} <i class="fa fa-angle-double-right"></i></a>
-      </li>
-    {% endif %}  
-  </ul>
-</div>

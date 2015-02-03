@@ -1,14 +1,34 @@
-<p class="post-meta">
-  <em>{{ include.post.date | date: "%b %-d, %Y" }}</em>
+<ul class="list-inline post-meta">
+  <li class="first">
+    <em><i class="fa fa-calendar"></i> {{ include.post.date | date: "%b %-d, %Y" }}</em>
+  </li>
+  
   {% if include.post.author %} 
-    • {{ include.post.author }}
+    <li>
+      <img src="https://github.com/{{ include.post.author }}.png" alt="{{ include.post.author }}'s avatar" />
+      <a href="http://github.com/{{ include.post.author }}" target="_blank">{{ include.post.author }}</a>
+    </li>
   {% endif %}
+  
   {% if include.post.meta %} 
-    • {{ include.post.meta }}
+    <li>
+      {{ include.post.meta }}
+    </li>
   {% endif %}
+  
   {% if include.post.tags %}
     {% for category in include.post.tags %}
-      • {{ category | capitalize }}
+      <li>
+        {{ category | capitalize }}
+      </li>
     {% endfor %}
   {% endif %}
-</p>
+  
+  {% if include.post.showComments %}
+    <li>
+      <a href="{{ post.url | prepend: site.baseurl }}#comments">
+        <i class="fa fa-comments"></i>
+      </a>
+    </li>
+  {% endif %}
+</ul>

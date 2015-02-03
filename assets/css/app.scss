@@ -75,6 +75,31 @@ div.info {
   display: none;
 }
 
+.blogs .excerpt {
+  padding-bottom: 60px;
+}
+
+.post-meta img {
+  height: 16px;
+  width: 16px;
+}
+
+.post-meta li {
+  border-left: solid 1px #EFEFEF;
+  margin: 0 0 0 10px;
+  padding: 0 0 0 10px;
+}
+
+.post-meta li.first {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-footer {
+  padding: 20px 0 40px 0;
+}
+
 ul.social a {
   display: block;
   opacity: .7;

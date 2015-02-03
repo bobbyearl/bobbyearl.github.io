@@ -15,14 +15,15 @@ sass:
 defaults:
   - 
     scope:
-      path: ""
+      path: ''
     values:
-      layout: "base"
+      layout: base
   - 
     scope:
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
+      layout: post
+      author: bobbyearl
       showComments: true
       
 # Site content

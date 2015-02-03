@@ -16,7 +16,7 @@ Ashley and I finally found a new place to move.  We&#8217;ll be living on the t
 
 To say we&#8217;re excited about it is an understatement.  When we went and looked at it I was almost giddy.  The homeowner lives on the first floor and seems like a cool guy.  We move in May 1st.  Not looking forward to the actual move again.  Just have to keep my eye on the prize and I think it will be ok.
 
-It&#8217;s also going to be a different experience finally being able to live with just Ashley.  I&#8217;m going to miss my roommates.  I&#8217;ve had roommates since the day I started college.  In fact I&#8217;ve lived with Chip for about 5 years now and Clay 4.  I think it&#8217;s finally time to bite the bullet and live with just my wife though.  <img src="http://life.bobbyearl.com/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" />
+It&#8217;s also going to be a different experience finally being able to live with just Ashley.  I&#8217;m going to miss my roommates.  I&#8217;ve had roommates since the day I started college.  In fact I&#8217;ve lived with Chip for about 5 years now and Clay 4.  I think it&#8217;s finally time to bite the bullet and live with just my wife though.  :-)
 
 On to new things&#8230;
 
