@@ -13,19 +13,23 @@ sass:
 
 # Default layout
 defaults:
-  - 
+  -
     scope:
       path: ''
     values:
       layout: base
-  - 
+  -
     scope:
       type: posts
     values:
       layout: post
       author: bobbyearl
       showComments: true
-      
+
+# Migrate to Jekyll 3
+gems:
+  - jekyll-paginate
+
 # Site content
 dates:
   married: '2007-11-17'
