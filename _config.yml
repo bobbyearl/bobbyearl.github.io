@@ -29,6 +29,7 @@ defaults:
 # Migrate to Jekyll 3
 gems:
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Site content
 dates:
