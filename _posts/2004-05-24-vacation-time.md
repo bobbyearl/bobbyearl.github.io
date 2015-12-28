@@ -9,7 +9,7 @@ categories:
   - Birdnest
 ---
 <p class="p1">
-  I finally got to take a &#8220;vacation&#8221; this weekend. I left Friday morning bright and early and drove down to Pauley&#8217;s Island, SC. I was a volunteer for the Hannah and Friends Celebraty Golf Classic. It was actually pretty cool. I &#8220;met&#8221; lots of football players for the Carolina Panthers and New England Patriots. And by met I mean I asked them how they were, they said good, and asked how far to the green. A few of them did actually have conversations with me. Basically, these rich people pay money to play with the different players. The money goes to Autistic Kids programs because one of the coaches for the Panthers has an autistic daughter. A noble thought to say the least. Everyone gets pampered very nicely.
+  I finally got to take a &#8220;vacation&#8221; this weekend. I left Friday morning bright and early and drove down to Pauley&#8217;s Island, SC. I was a volunteer for the Hannah and Friends Celebrity Golf Classic. It was actually pretty cool. I &#8220;met&#8221; lots of football players for the Carolina Panthers and New England Patriots. And by met I mean I asked them how they were, they said good, and asked how far to the green. A few of them did actually have conversations with me. Basically, these rich people pay money to play with the different players. The money goes to Autistic Kids programs because one of the coaches for the Panthers has an autistic daughter. A noble thought to say the least. Everyone gets pampered very nicely.
 </p>
 
 <p class="p1">

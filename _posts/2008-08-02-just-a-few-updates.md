@@ -12,13 +12,7 @@ I&#8217;ve found that as I get better updating my status on <a title="Public Pro
 
 I&#8217;ll write about the most important first.  Ashley and I are having a baby.  She&#8217;s due January 29 so we still have a ways to go.   Her little belly is starting to poke out just a tiny bit.  I have to say she is so beautiful with it.  In about 6 weeks we&#8217;ll be able to tell the sex.  My old coworker and her husband, who are also having a child, have decided to wait to find out the sex.  Ashley and I aren&#8217;t that strong-willed and are dying to know.  So much so, she wanted me to buy some 3D imaging scan that would tell us the sex at 16 weeks.  For now I&#8217;ve held off, but we shall see.
 
-<div style="width: 682px" class="wp-caption aligncenter">
-  <a href="http://www.flickr.com/photos/bobbyearl/2729676489/"><img title="Baby Earl" src="http://farm4.static.flickr.com/3162/2729676489_964ce0d9f7_o_d.jpg" alt="Baby Earl" width="672" height="512" /></a>
-  
-  <p class="wp-caption-text">
-    Baby Earl
-  </p>
-</div>
+<a href="http://www.flickr.com/photos/bobbyearl/2729676489/"><img title="Baby Earl" src="http://farm4.static.flickr.com/3162/2729676489_964ce0d9f7_o_d.jpg" alt="Baby Earl" /></a>
 
 As I&#8217;ve <a href="http://simplyearl.com/life/2008/04/10/new-place-new-things/" target="_self">previously discussed</a>, we&#8217;re now living in the top floor of an old house.  After mentioning the baby to our landlord, he graciously offered for us to leave our lease early with no penalty to the security deposit.  I didn&#8217;t even ask, matter-of-fact I made a point to say we would honor the lease.  Because of his generous offer, we have started to look at purchasing a home.  We haven&#8217;t sat with a lender yet, but have briefly spoken with our <a title="Jennie Hood" href="http://www.jenniehood.com" target="_blank">amazing real estate agent/college friend</a>.  We&#8217;re both very anxious to own our first home and feel now couldn&#8217;t be a better time to buy.
 

@@ -1,6 +1,5 @@
 ---
 title: My First Post
-author: ashleyearl
 layout: post
 permalink: /2007/04/my-first-post/
 categories:
