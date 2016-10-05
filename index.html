@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-md-4">
       <h2>Welcome</h2>
-      <p>I'm a full-stack software engineer from Charleston, SC, currently focusing on user education and developer evangelism at <a href="http://developer.blackbaud.com" target="_blank">Blackbaud</a>.</p>
+      <p>I'm a software engineer from Charleston, SC, currently focusing on front-end projects such as <a href="http://skyux.developer.blackbaud.com/" target="_blank" rel="noopener noreferrer">SKY UX</a>, <a href="https://github.com/blackbaud/stache" target="_blank" rel="noopener noreferrer">Stache</a>, and <a href="https://github.com/blackbaud/sky-pages-cli" target="_blank" rel="noopener noreferrer">Sky Pages</a> at Blackbaud.</p>
       <p>Rarely, I blog about the <a href="blog/">technical challenges and solutions</a> I get to tackle.  My <a href="traffic/" target="_blank">traffic site</a> is also mildly useful for those living in Charleston.</p>
     </div>
     <div class="col-md-8">
@@ -24,16 +24,16 @@
       <div class="row portfolio-item-wrapper">
         {% for project in site.data.portfolio %}
           <div class="col-md-3 portfolio-item">
-            <a href="{{ project.thumbnail }}" 
-               class="thumbnail" 
-               target="_blank" 
+            <a href="{{ project.thumbnail }}"
+               class="thumbnail"
+               target="_blank"
                data-toggle="popover"
                data-title="{{ project.title }}"
                data-target="#d{{ forloop.index0 }}">
               <img src="{{ project.thumbnail }}" alt="{{ project.title }}" />
             </a>
             <div class="description" id="d{{ forloop.index0 }}">
-              {% if project.description != '' %} 
+              {% if project.description != '' %}
                 <p>{{ project.description }}</p>
               {% endif %}
               {% if project.tech %}
