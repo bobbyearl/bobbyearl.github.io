@@ -6,6 +6,7 @@
   <link rel="shortcut icon" href="{{ '/assets/img/favicon.png' | prepend: site.baseurl }}">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" type="text/css" href="{{ '/assets/css/app.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -24,73 +25,9 @@
   </script>
 
 </head>
-<body>
+<body class="layout-{{ layout.layout }} layout-{{ page.layout }}">
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>
-          <a href="{{ '/' | prepend: site.baseurl }}">Bobby Earl</a>
-          <small class="pull-right">
-            <a href="{{ '/blog/' | prepend: site.baseurl }}">{Blog}</a>
-          </small>
-        </h1>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        {{ content }}
-      </div>
-    </div>
-
-    <div class="row footer">
-      <div class="col-md-6">
-        <ul class="list-unstyled muted contact">
-          <li>
-            <a href="mailto:bobby@simplyearl.com" target="_blank">bobby@simplyearl.com</a>
-          </li>
-          <li>
-            Last Modified: <span data-date="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%D' }}</span>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <ul class="list-inline social pull-right">
-          <li>
-            <a href="http://github.com/Blackbaud-BobbyEarl" target="_blank" data-toggle="tooltip" title="Blackbaud Github">
-              <i class="fa fa-github-square fa-3x"></i>
-            </a>
-          </li>
-          <li>
-            <a href="http://www.linkedin.com/in/bobbyearl" target="_blank" data-toggle="tooltip" title="LinkedIn">
-              <i class="fa fa-linkedin-square fa-3x"></i>
-            </a>
-          </li>
-          <li>
-            <i class="fa fa-ellipsis-v"></i>
-          </li>
-          <li>
-            <a href="http://www.facebook.com/bobbyearl/" target="_blank" data-toggle="tooltip" title="Facebook">
-              <i class="fa fa-facebook-square fa-3x"></i>
-            </a>
-          </li>
-          <li>
-            <a href="http://github.com/bobbyearl" target="_blank" data-toggle="tooltip" title="Personal GitHub">
-              <i class="fa fa-github-square fa-3x"></i>
-            </a>
-          </li>
-          <li>
-            <a href="http://www.twitter.com/simplyearl" target="_blank" data-toggle="tooltip" title="Twitter">
-              <i class="fa fa-twitter-square fa-3x"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="bg"></div>
+  {{ content }}
 
   <script type="text/javascript" src="{{ '/bower_components/jquery/dist/jquery.min.js' | prepend: site.baseurl }}"></script>
   <script type="text/javascript" src="{{ '/bower_components/moment/min/moment.min.js' | prepend: site.baseurl }}"></script>
@@ -98,5 +35,4 @@
   <script type="text/javascript" src="{{ '/assets/js/app.js' | prepend: site.baseurl }}"></script>
 
 </body>
-
 </html>
