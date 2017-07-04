@@ -11,7 +11,7 @@ repository: bobbyearl/bobbyearl.github.io
 sass:
   style: compresesed
   load_paths: 
-    - assets/css
+    - _scss
     - bower_components
 
 # Default layout
