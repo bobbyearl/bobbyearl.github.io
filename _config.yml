@@ -5,6 +5,7 @@ url: http://bobbyearl.com
 permalink: /blog/:year/:month/:day/:title/
 paginate: 10
 paginate_path: /blog/:num
+repository: bobbyearl/bobbyearl.github.io
 
 # Use bower
 sass:
@@ -17,7 +18,7 @@ defaults:
     scope:
       path: ''
     values:
-      layout: base
+      layout: wrapper
   -
     scope:
       type: posts
@@ -26,8 +27,7 @@ defaults:
       author: bobbyearl
       showComments: true
 
-# Migrate to Jekyll 3
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
@@ -36,3 +36,5 @@ dates:
   married: '2007-11-17'
   reeves: '2009-02-08'
   william: '2010-12-16'
+  evalee: '2016-04-09'
+  cooper: '2017-07-04'

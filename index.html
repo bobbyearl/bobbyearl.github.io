@@ -1,52 +1,10 @@
 ---
+layout: home
 ---
 
-<div class="info">
-  <div class="row">
-    <div class="col-md-4">
-      <h2>Welcome</h2>
-      <p>I'm a software engineer from Charleston, SC, currently focusing on front-end projects such as <a href="http://skyux.developer.blackbaud.com/" target="_blank" rel="noopener noreferrer">SKY UX</a>, <a href="https://github.com/blackbaud/stache" target="_blank" rel="noopener noreferrer">Stache</a>, and <a href="https://developer.blackbaud.com/skyux2" target="_blank" rel="noopener noreferrer">SKY UX Builder</a> at Blackbaud.</p>
-      <p>Rarely, I blog about the <a href="blog/">technical challenges and solutions</a> I get to tackle.  My <a href="traffic/" target="_blank">traffic site</a> is also mildly useful for those living in Charleston.</p>
-    </div>
-    <div class="col-md-8">
-      <h2>About Me</h2>
-      <p>Realizing I enjoyed technical challenges at a young age, coupled with a Computer Science degree from <a href="http://www.winthrop.edu">Winthrop University</a> has lead me down a career path, where the cliche has proven true - I never really feel like I'm working.</p>
-      <p>Being a husband to my <a href="ashley/ target="_blank">beautiful wife Ashley</a> for
-        <span data-date="{{ site.dates.married }}" data-parse="YYYY-MM-DD"></span> and a father to our two young boys, <span data-date="{{ site.dates.reeves }}" data-parse="YYYY-MM-DD" data-diff="years"></span> and <span data-date="{{ site.dates.william }}" data-parse="YYYY-MM-DD" data-diff="years"></span>, has been the most rewarding and challenging experience of my entire life, but I would not be who I am today without them.</p>
-    </div>
-  </div>
-</div>
-
-<div class="portfolio">
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Portfolio</h2>
-      <div class="row portfolio-item-wrapper">
-        {% for project in site.data.portfolio %}
-          <div class="col-md-3 portfolio-item">
-            <a href="{{ project.thumbnail }}"
-               class="thumbnail"
-               target="_blank"
-               data-toggle="popover"
-               data-title="{{ project.title }}"
-               data-target="#d{{ forloop.index0 }}">
-              <img src="{{ project.thumbnail }}" alt="{{ project.title }}" />
-            </a>
-            <div class="description" id="d{{ forloop.index0 }}">
-              {% if project.description != '' %}
-                <p>{{ project.description }}</p>
-              {% endif %}
-              {% if project.tech %}
-                <ul class='list-unstyled'>
-                  {% for tech in project.tech %}
-                    <li>{{ tech }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
+<h1>Hi.</h1>
+<ul>
+  <li>Developer.</li>
+  <li>Daily traffic enthusiast.</li>
+  <li>Yearly blogger.</li>
+</ul>
