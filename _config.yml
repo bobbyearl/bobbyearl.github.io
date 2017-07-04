@@ -10,7 +10,9 @@ repository: bobbyearl/bobbyearl.github.io
 # Use bower
 sass:
   style: compresesed
-  sass_dir: bower_components
+  load_paths: 
+    - assets/css
+    - bower_components
 
 # Default layout
 defaults:
@@ -30,11 +32,3 @@ defaults:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
-# Site content
-dates:
-  married: '2007-11-17'
-  reeves: '2009-02-08'
-  william: '2010-12-16'
-  evalee: '2016-04-09'
-  cooper: '2017-07-04'
