@@ -1,3 +1,0 @@
-	$(function() {
-		$('#artwork a').lightBox();		
-	});

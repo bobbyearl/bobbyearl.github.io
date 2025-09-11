@@ -1,2 +1,0 @@
-RewriteEngine On
-RewriteRule ^(.*) http://earlr.people.cofc.edu/birthday/img/$1 [L]
