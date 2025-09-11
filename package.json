@@ -1,0 +1,22 @@
+{
+  "name": "bobbyearl.com",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vite-plugin-minify": "^1.5.2"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.1.13"
+  }
+}

@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --be-color-bg-start: var(--color-red-200);
+  --be-color-bg-end: var(--color-red-100);
+  --be-color-text: var(--color-black);
+}
+
+.dark {
+  --be-color-bg-start: var(--color-fuchsia-900);
+  --be-color-bg-end: var(--color-indigo-500);
+  --be-color-text: var(--color-white);
+}
+
+body {
+  @apply flex h-screen;
+  background: linear-gradient(45deg,
+      var(--be-color-bg-start),
+      var(--be-color-bg-end));
+}
+
+article {
+  @apply m-auto flex max-w-lg flex-col gap-3 text-[var(--be-color-text)];
+}
+
+aside {
+  @apply flex flex-row justify-end;
+}
+
+aside svg {
+  @apply size-6;
+}
+
+section {
+  @apply flex flex-col gap-4 border-10 border-[var(--be-color-text)] bg-[var(--be-color-text)]/10 p-10 shadow-xl;
+}
+
+header {
+  @apply flex flex-row items-end gap-2;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+a,
+button {
+  @apply cursor-pointer;
+}
+
+button svg {
+  @apply size-3 opacity-75 hover:opacity-100;
+}
+
+h2 {
+  @apply flex items-baseline italic;
+}
+
+a {
+  @apply bg-white/20 no-underline hover:bg-white/40;
+}
+
+ul {
+  @apply flex flex-row gap-4;
+}
+
+/* https://www.figma.com/community/file/839558611085349133 */
+ul li svg {
+  @apply size-5 opacity-75 hover:opacity-100;
+}

@@ -1,6 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{REQUEST_URI} artwork/
-RewriteCond %{QUERY_STRING} !generating_thumb
-RewriteRule ^(.*)$ create_copyright.php?src=$1
-
