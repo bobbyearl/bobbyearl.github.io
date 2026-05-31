@@ -5,6 +5,7 @@ const setupSlogans = (result: HTMLElement, refresh: HTMLButtonElement) => {
     "No, I'm not a Nascar driver.",
     'Ricky Bobby is a funny movie.',
     'Like, `My Name Is`.',
+    'Do you really like traffic?',
   ];
 
   const writeSlogan = () => {
