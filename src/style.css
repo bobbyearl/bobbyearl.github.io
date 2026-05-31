@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --be-color-bg-start: var(--color-red-200);
-  --be-color-bg-end: var(--color-red-100);
+  --be-color-bg-start: var(--color-fuchsia-300);
+  --be-color-bg-end: var(--color-indigo-100);
   --be-color-text: var(--color-black);
 }
 
