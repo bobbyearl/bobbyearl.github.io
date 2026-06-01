@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --be-color-bg-start: var(--color-fuchsia-300);
@@ -13,14 +13,20 @@
 }
 
 body {
-  @apply flex h-screen;
-  background: linear-gradient(45deg,
-      var(--be-color-bg-start),
-      var(--be-color-bg-end));
+  @apply h-screen p-4;
+  background: linear-gradient(
+    45deg,
+    var(--be-color-bg-start),
+    var(--be-color-bg-end)
+  );
+}
+
+main {
+  @apply flex h-full;
 }
 
 article {
-  @apply m-auto flex max-w-lg flex-col gap-3 text-[var(--be-color-text)];
+  @apply m-auto flex max-w-lg flex-col gap-3 text-(--be-color-text);
 }
 
 aside {
@@ -31,12 +37,28 @@ aside svg {
   @apply size-6;
 }
 
+.theme-switcher {
+  @apply grid grid-cols-1;
+}
+
+.theme-switcher-options {
+  @apply relative z-0 inline-grid grid-cols-3 gap-0.5 bg-gray-950/5 p-0.75;
+}
+
+.theme-switcher-option {
+  @apply relative p-1.5 *:size-7 has-checked:bg-white has-checked:ring has-checked:inset-ring has-checked:ring-gray-950/10 has-checked:inset-ring-white/10 sm:p-0 dark:has-checked:bg-gray-600 dark:has-checked:text-white dark:has-checked:ring-transparent;
+}
+
+.theme-switcher-option input {
+  @apply absolute inset-0 appearance-none;
+}
+
 section {
-  @apply flex flex-col gap-4 border-10 border-[var(--be-color-text)] bg-[var(--be-color-text)]/10 p-10 shadow-xl;
+  @apply flex flex-col gap-4 border-10 border-(--be-color-text) bg-(--be-color-text)/10 p-10 shadow-xl max-sm:p-6;
 }
 
 header {
-  @apply flex flex-row items-end gap-2;
+  @apply flex flex-row items-end gap-2 max-sm:flex-col max-sm:items-start;
 }
 
 h1 {
